@@ -21,6 +21,6 @@
 @media (max-width: 320px) {
   .header {
     max-width: calc(100% - (32/320*100%));
-    
+
   }
 }
