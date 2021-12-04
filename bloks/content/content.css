@@ -1,0 +1,12 @@
+.content {
+  display: grid;
+  row-gap: 92px;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+@media  screen and (max-width: 1140px) {
+  .content {
+    margin-top: 48px;
+  }
+}
