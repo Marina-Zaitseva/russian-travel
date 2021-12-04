@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .lead__image{
   width: 100%;
   margin: 64px auto 0;
@@ -15,3 +16,22 @@
 
   }
 }
+=======
+.lead__image {
+  width: 100%;
+  margin: 64px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    margin: 56px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image {
+    margin: 40px 0 0;
+  }
+}
+
+>>>>>>> 9851c1b33aa1b2ae2fe60b387dd13ed7c3bba1a3
