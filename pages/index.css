@@ -6,7 +6,6 @@
 @import url(../bloks/header/__lang-link/header__lang-link.css);
 @import url(../bloks/logo/logo.css);
 
-<<<<<<< HEAD
 @import url(../bloks/content/content.css);
 
 /*section_LEAD*/
@@ -15,25 +14,3 @@
 @import url(../bloks/lead/__subtitle/lead__subtitle.css);
 @import url(../bloks/lead/__image/lead__image.css);
 @import url(../bloks/lead/__caption/lead__caption.css);
-=======
-@import url(../bloks/lead/lead.css);
-@import url(../bloks/lead/__caption/lead__caption.css);
-@import url(../bloks/lead/__image/lead__image.css);
-@import url(../bloks/lead/__subtitle/lead__subtitle.css);
-@import url(../bloks/lead/__title/lead__title.css);
-
-
-@import url(../bloks/intro/intro.css);
-@import url(../bloks/intro/__title/intro__title.css);
-@import url(../bloks/intro/__text/intro__text.css);
-@import url(../bloks/intro/__list/intro__list.css);
-@import url(../bloks/intro/__list-text/intro__list-text.css);
-
-@import url(../bloks/photo-grid/photo-grid.css);
-@import url(../bloks/photo-grid/__image/photo-grid__image.css);
-
-
-
->>>>>>> 9851c1b33aa1b2ae2fe60b387dd13ed7c3bba1a3
-
-
