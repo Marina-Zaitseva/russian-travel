@@ -1,4 +1,6 @@
 .content {
+  max-width: 1280px;
+  min-width: 320px;
   display: grid;
   row-gap: 92px;
   justify-content: center;
