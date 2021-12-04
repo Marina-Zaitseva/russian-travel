@@ -20,11 +20,7 @@
 
 @media  screen and (max-width: 568px) {
   .header {
-<<<<<<< HEAD
     max-width: 288px;
-=======
-    max-width: calc(100% - (32/320*100%));
->>>>>>> 9851c1b33aa1b2ae2fe60b387dd13ed7c3bba1a3
 
   }
 }
