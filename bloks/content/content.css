@@ -1,16 +1,28 @@
 .content {
-  max-width: 1280px;
-  min-width: 320px;
+  max-width: 1184px;
+  min-width: 288px;
   display: grid;
   row-gap: 92px;
   justify-content: center;
-  margin-top: 56px;
+  align-self: center;
+  margin: 56px auto 0;
+
 }
 
-@media  screen and (max-width: 1140px) {
+@media screen and (max-width: 1024px) {
   .content {
-    margin-top: 48px;
+    max-width: 1024px;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 768px;
+  }
+}
 
+@media  screen and (max-width: 320px) {
+  .content {
+    max-width: 320px;
+  }
+}

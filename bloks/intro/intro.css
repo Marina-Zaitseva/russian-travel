@@ -1,19 +1,25 @@
 .intro {
-  max-width: 690px;
-  margin: 0;
+  max-width:calc(100% - (494/1184*100%));
+  margin: 0 0 0 calc(100/1184*100%);
 }
 
 
-
+@media screen and (max-width: 1110px) {
+  .intro {
+    max-width: calc(100% - (334/1024*100%));
+    margin: 0 0 0 calc(48/1024*100%);
+  }
+}
 @media screen and (max-width: 984px) {
   .intro {
-    max-width: 720px;
+    max-width: calc(100% - (48/768 *100%));
     margin: 0 auto;
   }
 }
 
 @media  screen and (max-width: 568px) {
   .intro {
-    max-width: 288px;
+    max-width: calc(100% - (32/320 *100%));
+    margin: 0 auto;
   }
 }

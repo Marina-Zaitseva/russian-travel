@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 560px) {
   .header__logo {
     height: 42px;
   }

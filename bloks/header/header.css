@@ -1,25 +1,25 @@
 .header {
-  max-width: 1184px;
+  max-width: calc(100% - (96/1280 *100%));
   margin: 0 auto ;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1080px) {
   .header {
-    max-width: 928px;
+    max-width: calc(100% - (96/1024 *100%));
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 920px) {
   .header {
-    max-width: 720px;
+    max-width: calc(100% - (48/768 *100%));
   }
 }
 
 @media  screen and (max-width: 568px) {
   .header {
-    max-width: 288px;
+    max-width: calc(100% - (32/320 *100%));
   }
 }
