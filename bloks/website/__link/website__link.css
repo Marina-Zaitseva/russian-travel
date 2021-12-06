@@ -1,6 +1,14 @@
 .website__link{
+  width: 100%;
   text-decoration: none;
   font-size: 18px;
   line-height: 22px;
   color: #fff;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 560px) {
+  .website__link{
+    max-width: calc(100% - 32px);
+  }
 }

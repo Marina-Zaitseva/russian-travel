@@ -1,13 +1,35 @@
 .page {
   margin: 0 auto;
   max-width: 1280px;
-  padding: 16px 0 24px;
+  min-width: 320px;
   background-color: #2A2C2F;
-  font-family: inter;
+  font-family: 'Inter','Areal',sans-serif;
   font-weight: normal;
   color: white;
-
+  display: flex;
+  flex-direction: column;
+  padding: 28px 48px 24px;
 }
+
+@media screen and (max-width:1140px ) {
+  .page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+ }
+
+ @media screen and (max-width: 984px) {
+  .page {
+    row-gap: 88px;
+  }
+ }
+
+ @media screen and (max-width: 540px ) {
+  .page {
+    row-gap: 88px;
+  }
+ }
+
 
 
 

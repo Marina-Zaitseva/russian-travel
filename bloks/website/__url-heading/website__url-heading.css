@@ -1,6 +1,15 @@
 .website__url-heading{
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
   font-size: 12px;
   line-height: 170%;
   color: #aaa;
 }
+
+@media screen and (max-width: 560px) {
+  .website__url-heading{
+    max-width: calc(100% - 32px);
+
+  }
+}
+

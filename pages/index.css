@@ -2,12 +2,16 @@
 @import url(../fonts/fonts.css);
 @import url(../bloks/body/body.css);
 @import url(../bloks/page/page.css);
-@import url(../bloks/conteiner/conteiner.css);
+
+@import url(../bloks/page/__content/page__content.css);
+@import url(../bloks/content/__section/content__section.css);
+
 @import url(../bloks/header/header.css);
 @import url(../bloks/header/__lang-link/header__lang-link.css);
 @import url(../bloks/logo/logo.css);
 
 @import url(../bloks/content/content.css);
+@import url(../bloks/link-opacity/link-opacity.css);
 
 /*section_LEAD*/
 @import url(../bloks/lead/lead.css);
@@ -40,3 +44,18 @@
 @import url(../bloks/website/website.css);
 @import url(../bloks/website/__url-heading/website__url-heading.css);
 @import url(../bloks/website/__link/website__link.css);
+
+/*COVER*/
+@import url(../bloks/cover/cover.css);
+@import url(../bloks/cover/__overlay/cover__overlay.css);
+@import url(../bloks/cover/__title/cover__title.css);
+@import url(../bloks/cover/__subtitle/cover__subtitle.css);
+
+
+/*FOOTER*/
+@import url(../bloks/footer/footer.css);
+@import url(../bloks/footer/__links/footer__links.css);
+@import url(../bloks/footer/__link/footer__link.css);
+@import url(../bloks/footer/__copyright/footer__copyright.css);
+
+@import url(../bloks/page/__footer/page__footer.css);

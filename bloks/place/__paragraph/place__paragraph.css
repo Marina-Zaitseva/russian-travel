@@ -1,25 +1,27 @@
 .place__paragraph{
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
   font-size: 18px;
   line-height: 163%;
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1140px) {
   .place__paragraph{
     grid-template-columns: 440px 456px;
     column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 984px) {
   .place__paragraph{
     grid-template-columns: 340px 352px;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 560px) {
   .place__paragraph{
+    max-width: calc(100% - 32px);
     grid-template-columns: 320px;
     row-gap: 32px;
   }
