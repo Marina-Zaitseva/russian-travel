@@ -1,7 +1,21 @@
 .photo-grid__image {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  max-width: 284px;
 }
 
+@media screen and (max-width: 1240px ) {
+  .photo-grid__image {
+    max-width: 300px;
+  }
+}
 
+@media screen and (max-width: 950px ) {
+  .photo-grid__image {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 735px ) {
+  .photo-grid__image {
+    max-width: 288px;
+  }
+}

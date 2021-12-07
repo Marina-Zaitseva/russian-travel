@@ -1,17 +1,22 @@
-.content {
+.content{
+  width: 100%;
   display: grid;
   row-gap: 92px;
-  
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 984px ) {
- .content {
-   row-gap: 88px;
- }
+
+@media screen and (max-width: 950px ) {
+  .content {
+    row-gap: 88px;
+  }
 }
 
-@media screen and (max-width: 568px ) {
+@media screen and (max-width: 650px ) {
   .content {
     row-gap: 64px;
   }
- }
+}
+
+

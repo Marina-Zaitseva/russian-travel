@@ -1,37 +1,21 @@
-.page {
-  margin: 0 auto;
+
+.page{
   max-width: 1280px;
   min-width: 320px;
-  background-color: #2A2C2F;
-  font-family: 'Inter','Areal',sans-serif;
-  font-weight: normal;
-  color: white;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   padding: 28px 48px 24px;
+  background-color: #2A2C2F;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: normal;
+  color: #fff;
 }
 
-@media screen and (max-width:1140px ) {
+@media screen and (max-width: 1195px) {
   .page {
     padding-left: 0;
     padding-right: 0;
   }
- }
-
- @media screen and (max-width: 984px) {
-  .page {
-    row-gap: 88px;
-  }
- }
-
- @media screen and (max-width: 540px ) {
-  .page {
-    row-gap: 88px;
-  }
- }
-
-
-
-
-
-
+}

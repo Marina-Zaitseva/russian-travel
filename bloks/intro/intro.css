@@ -1,25 +1,23 @@
 .intro {
-  max-width:calc(100% - (494/1184*100%));
-  margin: 0 0 0 calc(100/1184*100%);
+  max-width: 690px;
+  margin-left: 100px;
 }
 
-
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1195px ) {
   .intro {
-    max-width: calc(100% - (334/1024*100%));
-    margin: 0 0 0 calc(48/1024*100%);
+    margin-left: 48px;
   }
 }
-@media screen and (max-width: 984px) {
+
+@media screen and (max-width: 950px ) {
   .intro {
-    max-width: calc(100% - (48/768 *100%));
+    max-width: calc(100% - 48px);
     margin: 0 auto;
   }
 }
 
-@media  screen and (max-width: 568px) {
+@media screen and (max-width: 650px ) {
   .intro {
-    max-width: calc(100% - (32/320 *100%));
-    margin: 0 auto;
+    max-width: calc(100% - 32px);
   }
 }

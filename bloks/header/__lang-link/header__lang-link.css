@@ -1,8 +1,9 @@
 .header__lang-link {
+
+  color: #fff;
   font-size: 24px;
-  font-weight: 28px;
+  line-height: 28px;
   margin: 0 18px 0 0;
-  color: white;
 }
 
 .header__lang-link:last-of-type {
@@ -10,9 +11,9 @@
   text-decoration: none;
 }
 
-@media (max-width: 560px) {
-  .header__lang-link {
+@media screen and (max-width: 650px ) {
+  .header__lang-link  {
     font-size: 18px;
-    font-weight: 20px;
+    line-height: 20px;
   }
 }
