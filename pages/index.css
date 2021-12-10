@@ -5,27 +5,19 @@
 /*вспомогательные блоки для реалиции отступов*/
 @import url(../bloks/page/page.css);
 @import url(../bloks/page/__header/page__header.css);
-@import url(../bloks/page/__content/page__content.css);
 @import url(../bloks/page/__footer/page__footer.css);
-
-
 @import url(../bloks/content/content.css);
+@import url(../bloks/content/__section/content__section.css);
+
+/*LINK-OPACITY(блок для ссылок)*/
 @import url(../bloks/link-opacity/link-opacity.css);
-
-@import url(../bloks/content/section/content__section.css);
-
-
-
-
 
 /*HEADER*/
 @import url(../bloks/header/header.css);
-@import url(../bloks/header/logo/logo.css);
+@import url(../bloks/header/__logo/header__logo.css);
 @import url(../bloks/header/__lang-links/header__lang-links.css);
 @import url(../bloks/header/__lang-link/header__lang-link.css);
-
-
-
+@import url(../bloks/header/__lang-link/_text-decoration_underline/header__lang-link_text-decoration_underline.css);
 
 /*LEAD*/
 @import url(../bloks/lead/lead.css);
@@ -39,7 +31,7 @@
 @import url(../bloks/intro/__title/intro__title.css);
 @import url(../bloks/intro/__text/intro__text.css);
 @import url(../bloks/intro/__list/intro__list.css);
-
+@import url(../bloks/intro/__list-text/_weight_normal/intro__list-text_weight_normal.css);
 
 /*PHOTO-GRID*/
 @import url(../bloks/photo-grid/photo-grid.css);
@@ -56,14 +48,11 @@
 @import url(../bloks/place/__paragraphs/place__paragraphs.css);
 @import url(../bloks/place/__paragraph/place__paragraph.css);
 
-
-
 /*COVER*/
 @import url(../bloks/cover/cover.css);
 @import url(../bloks/cover/__overlay/cover__overlay.css);
 @import url(../bloks/cover/__title/cover__title.css);
 @import url(../bloks/cover/__subtitle/cover__subtitle.css);
-
 
 /*FOOTER*/
 @import url(../bloks/footer/footer.css);

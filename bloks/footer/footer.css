@@ -10,22 +10,17 @@
   .footer {
     width:calc(100% - 96px);
   }
-
 }
 
 @media screen and (max-width: 984px) {
   .footer {
-    max-width:calc(100% - 48px);
-
+    width:calc(100% - 48px);
   }
-
 }
 
 @media screen and (max-width: 540px) {
   .footer {
     flex-direction: column;
-    max-width:calc(100% - 32px);
-
-
+    width:calc(100% - 32px);
   }
 }
